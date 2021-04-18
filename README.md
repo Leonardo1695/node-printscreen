@@ -35,7 +35,7 @@ or running:
     sudo apt update
     sudo apt install git
 
-4: clone this:
+4: clone this repository:
 
     git clone https://github.com/Leonardo1695/node-printscreen.git
 
@@ -52,6 +52,7 @@ inside the cloned repository folder run:
     yarn start
 
 OBS: To mantain the server running keep the terminal openned
+
 
 7: testing
 
