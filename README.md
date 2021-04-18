@@ -4,11 +4,11 @@ node http server for generating and retrieving screenshots of the current runnin
 
 ## scripts:
 
-    run in development mode (with hot reload):
+run in development mode (with hot reload):
 
     yarn dev
 
-    run in opmized mode:
+run in opmized mode:
 
     yarn start
 
@@ -16,9 +16,9 @@ node http server for generating and retrieving screenshots of the current runnin
 
 1: install nodejs
 
-    installer: [link](https://nodejs.org/en/download/)
+installer: [link](https://nodejs.org/en/download/)
 
-    or running:
+or running:
 
     sudo apt-get install nodejs
 
@@ -37,41 +37,42 @@ node http server for generating and retrieving screenshots of the current runnin
 
 5: download dependencies
 
-    inside the cloned repository folder run:
+inside the cloned repository folder run:
 
     yarn
 
 6: start the script
 
-    inside the cloned repository folder run:
+inside the cloned repository folder run:
 
     yarn start
 
-    OBS: To mantain the server running keep the terminal openned
+OBS: To mantain the server running keep the terminal openned
 
 7: testing
 
-    in any browser navigate to:
+in any browser navigate to:
 
-        server status:
+server status:
 
-            127.0.0.1:3000/
+    127.0.0.1:3000/
 
-        get screenshot
+get screenshot
 
-            127.0.0.1:3000/getscreenshot
+    127.0.0.1:3000/getscreenshot
 
-    OR :
+OR :
 
-        server status:
+server status:
 
-            localhost:3000/
+    localhost:3000/
 
-        get screenshot
+get screenshot
 
-            localhost:3000/getscreenshot
+    localhost:3000/getscreenshot
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
