@@ -1,0 +1,23 @@
+{
+  "name": "node-printscreen",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "node http server for generating and retrieving screenshots of the current running machine",
+  "main": "index.ts",
+  "repository": "https://github.com/Leonardo1695/node-printscreen.git",
+  "author": "Leonardo1695 <leonardo.serra16@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "screenshot-desktop": "^1.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
