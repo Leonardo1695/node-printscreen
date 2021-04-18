@@ -6,7 +6,7 @@ node http server for generating and retrieving screenshots of the current runnin
 
 on first run remember to run yarn to download dependencies:
 
-    yarn 
+    yarn
 
 run in development mode (with hot reload):
 
@@ -20,9 +20,9 @@ run in opmized mode:
 
 1: install nodejs
 
-installer: [link](https://nodejs.org/en/download/)
+installer(windows or linux/ubunto): [link](https://nodejs.org/en/download/)
 
-or running:
+or running(linux):
 
     sudo apt-get install nodejs
 
@@ -30,9 +30,14 @@ or running:
 
     npm install --global yarn
 
-3: install git:
+3: install git && imagemagick(linux only):
+
+windows: [link](https://git-scm.com/download/win)
+
+linux/ubunto:
 
     sudo apt update
+    sudo apt install imagemagick
     sudo apt install git
 
 4: clone this repository:
