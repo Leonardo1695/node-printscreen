@@ -22,16 +22,16 @@ node http server for generating and retrieving screenshots of the current runnin
 
     sudo apt-get install nodejs
 
-2: install yarn running:
+2: install yarn:
 
     npm install --global yarn
 
-3: install git running:
+3: install git:
 
     sudo apt update
     sudo apt install git
 
-4: clone this repository running:
+4: clone this:
 
     git clone https://github.com/Leonardo1695/node-printscreen.git
 
