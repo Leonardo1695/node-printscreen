@@ -81,6 +81,23 @@ get screenshot
 
     localhost:3000/getscreenshot
 
+## V2
+
+implemented image clipping
+
+how to config:
+
+edit file config.js to define SIZE and LOCATION of the crop
+
+    src/config.js
+
+EX.: for a image with proportions 1920 - 1080 picking only the center will be APROX:
+
+width: 960
+height: 680
+top: 340
+left: 480
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

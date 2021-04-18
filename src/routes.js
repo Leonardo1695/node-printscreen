@@ -1,16 +1,19 @@
 import { Router } from 'express';
 import takeScreenshot from './screenshot.js';
+import cropImage from './crop.js';
 import path from 'path';
 
 const routes = Router();
 
 routes.use('/getscreenshot', async (req, res) => {
     try {
-        await takeScreenshot();
+        const img = await takeScreenshot();
 
-        const file = path.resolve('temp/test.png');
+        await cropImage(img);
 
-        res.sendFile(file);
+        const result = path.resolve('temp/result.png');
+
+        res.sendFile(result);
     } catch (error) {
         console.log(error);
         return res.json(error);

@@ -2,7 +2,7 @@ import screenshot from 'screenshot-desktop';
 
 const takeScreenshot = () => {
     const params = {
-        filename: 'temp/test.png',
+        filename: 'temp/screenshot.png',
         format: 'png'
     }
 
