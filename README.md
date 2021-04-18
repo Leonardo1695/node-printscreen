@@ -4,6 +4,10 @@ node http server for generating and retrieving screenshots of the current runnin
 
 ## scripts:
 
+on first run remember to run yarn to download dependencies:
+
+    yarn 
+
 run in development mode (with hot reload):
 
     yarn dev
