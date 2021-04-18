@@ -3,25 +3,29 @@
 node http server for generating and retrieving screenshots of the current running machine
 
 ## scripts:
+
     run in development mode (with hot reload):
+
     ```bash
-        yarn dev
+    yarn dev
     ```
+
     run in opmized mode:
+
     ```bash
-        yarn start
-    ```bash
+    yarn start
+    ```
 
 ## instalation && how to use:
 
 1: install nodejs
 
-    installer: https://nodejs.org/en/download/
+    installer: [link](https://nodejs.org/en/download/)
 
     or running:
 
     ```bash
-        sudo apt-get install nodejs
+    sudo apt-get install nodejs
     ```
 
 2: install yarn running:
@@ -48,16 +52,16 @@ node http server for generating and retrieving screenshots of the current runnin
     inside the cloned repository folder run:
 
     ```bash
-        yarn
+    yarn
     ```
 
 6: start the script
 
     inside the cloned repository folder run:
 
-        ```bash
-        yarn start
-        ```
+    ```bash
+    yarn start
+    ```
 
     OBS: To mantain the server running keep the terminal openned
 
