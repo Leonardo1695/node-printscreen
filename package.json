@@ -1,0 +1,9 @@
+{
+  "name": "node-printscreen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Leonardo1695/node-printscreen",
+  "author": "Leonardo1695",
+  "license": "MIT",
+  "private": false
+}
